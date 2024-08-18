@@ -1,9 +1,12 @@
  AI Interviewer App: Step-by-Step Development Plan
+ 
 Phase 1: Planning and Setup                                 DONE
+
     Define Requirements
            List all features and functionalities
            Prioritize features for MVP (Minimum Viable Product)
            Create user stories and use cases
+           
     Choose Technology Stack
            Frontend: React.js
            Backend: Node.js with Express.js
