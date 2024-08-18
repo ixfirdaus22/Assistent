@@ -17,7 +17,7 @@ Phase 1: Planning and Setup                                 DONE
            Initialize project with create-react-app for frontend
            Set up Express.js server for backend
 
-Phase 2: Backend Development
+Phase 2: Backend Development                                 DONE
 
     Create Basic Server Structure
            Set up Express.js server
