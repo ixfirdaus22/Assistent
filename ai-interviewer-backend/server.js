@@ -1,13 +1,16 @@
  const express = require('express');
  const cors = require('cors');
  const morgan = require('morgan');
+ const userRoutes = require('./routes/userRoutes');
+ const interviewRoutes = require('./routes/interviewRoutes');
+ const questionRoutes = require('./routes/questionRoutes');
  require('dotenv').config();
 
  const connectDB = require('./config/database');
 
  //connect to database
  connectDB();
- 
+
  const app = express();
  const port = process.env.PORT || 5000;
 
@@ -16,6 +19,9 @@
  app.use(express.json());
  app.use(express.urlencoded({ extended: true}));
  app.use(morgan('dev'));
+ app.use('/api/users', userRoutes);
+ app.use('/api/interviews', interviewRoutes);
+ app.use('/api/questions', questionRoutes);
 
  //basic error handling middleware
  app.use((err, req, res, next) => {
