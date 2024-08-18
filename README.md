@@ -6,7 +6,6 @@ Phase 1: Planning and Setup                                 DONE
            List all features and functionalities
            Prioritize features for MVP (Minimum Viable Product)
            Create user stories and use cases
-           
     Choose Technology Stack
            Frontend: React.js
            Backend: Node.js with Express.js
@@ -19,6 +18,7 @@ Phase 1: Planning and Setup                                 DONE
            Set up Express.js server for backend
 
 Phase 2: Backend Development
+
     Create Basic Server Structure
            Set up Express.js server
            Implement basic routing
